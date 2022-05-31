@@ -1,0 +1,7 @@
+Changes the camera zoom smoothly
+
+Value 1 = New Camera zoom
+Value 2 = Time it takes to change
+
+
+

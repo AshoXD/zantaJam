@@ -956,7 +956,15 @@ class PlayState extends MusicBeatState
 
 		var showTime:Bool = (ClientPrefs.timeBarType != 'Disabled');
 		timeTxt = new FlxText(STRUM_X + (FlxG.width / 2) - 248, 19, 400, "", 32);
-		timeTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		if (SONG.song.toLowerCase() == 'dead-snow')
+			{
+				timeTxt.setFormat(Paths.font("renogare.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+			}
+		else
+			{
+				timeTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+			}
+		
 		timeTxt.scrollFactor.set();
 		timeTxt.alpha = 0;
 		timeTxt.borderSize = 2;
@@ -1112,14 +1120,31 @@ class PlayState extends MusicBeatState
 		reloadHealthBarColors();
 
 		scoreTxt = new FlxText(0, healthBarBG.y + 36, FlxG.width, "", 20);
-		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		if (SONG.song.toLowerCase() == 'dead-snow')
+			{
+				scoreTxt.setFormat(Paths.font("renogare.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+			}
+		else
+			{
+				scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+			}
+		
+
 		scoreTxt.scrollFactor.set();
 		scoreTxt.borderSize = 1.25;
 		scoreTxt.visible = !ClientPrefs.hideHud;
 		add(scoreTxt);
 
-		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "BOTPLAY", 32);
-		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "SEXO ANAL", 32);
+		if (SONG.song.toLowerCase() == 'dead-snow')
+			{
+				botplayTxt.setFormat(Paths.font("renogare.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+			}
+		else
+				{
+					botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+				}
+		
 		botplayTxt.scrollFactor.set();
 		botplayTxt.borderSize = 1.25;
 		botplayTxt.visible = cpuControlled;
@@ -1346,6 +1371,14 @@ class PlayState extends MusicBeatState
 			
 		healthBar.updateBar();
 	}
+
+	public function setHealthBarColors(dadCol:Array<Int>, bfCol:Array<Int>) {
+		healthBar.createFilledBar(FlxColor.fromRGB(dadCol[0], dadCol[1], dadCol[2]),
+			FlxColor.fromRGB(bfCol[0], bfCol[1], bfCol[2]));
+			
+		healthBar.updateBar();
+	}
+
 
 	public function addCharacterToList(newCharacter:String, type:Int) {
 		switch(type) {
@@ -2800,14 +2833,21 @@ class PlayState extends MusicBeatState
 			health = 2;
 
 		if (healthBar.percent < 20)
+			{
 			iconP1.animation.curAnim.curFrame = 1;
-		else
-			iconP1.animation.curAnim.curFrame = 0;
-
-		if (healthBar.percent > 80)
+			iconP2.animation.curAnim.curFrame = 2;
+			}
+		else if (healthBar.percent > 80)
+			{
+			iconP1.animation.curAnim.curFrame = 2;
 			iconP2.animation.curAnim.curFrame = 1;
+			}
 		else
+			{
+			iconP1.animation.curAnim.curFrame = 0;
 			iconP2.animation.curAnim.curFrame = 0;
+		}
+
 
 		if (FlxG.keys.anyJustPressed(debugKeysCharacter) && !endingSong && !inCutscene) {
 			persistentUpdate = false;
@@ -3123,6 +3163,29 @@ class PlayState extends MusicBeatState
 
 	public function triggerEventNote(eventName:String, value1:String, value2:String) {
 		switch(eventName) {
+
+			case 'Change Icon':
+				if (value1 == 'bf')
+				{
+					iconP1.changeIcon(value2);
+				}
+				if (value1 == 'dad')
+				{
+					iconP2.changeIcon(value2);
+				}
+				
+				if (value2 == 'edd')
+					{
+						setHealthBarColors([70, 221, 24], [194, 41, 41]);
+					} 
+				if (value2 == 'matt')
+					{
+						setHealthBarColors([0, 22, 74], [194, 41, 41]);
+					} 
+
+			
+
+
 			case 'Hey!':
 				var value:Int = 2;
 				switch(value1.toLowerCase().trim()) {

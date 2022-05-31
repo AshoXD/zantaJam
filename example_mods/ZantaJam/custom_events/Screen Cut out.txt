@@ -1,0 +1,5 @@
+Screen visibility
+Made in around 1 minute by asho.
+Value 1 = Interface visibility
+Value 2 = Game visibility
+True or false
