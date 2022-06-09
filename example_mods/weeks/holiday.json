@@ -1,0 +1,32 @@
+{
+	"storyName": "Your New Week",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "house",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Dead-Snow",
+			"edd",
+			[
+				186,
+				0,
+				60
+			]
+		]
+	],
+	"weekCharacters": [
+		"edd",
+		"zanta",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Zanta's Holiday"
+}

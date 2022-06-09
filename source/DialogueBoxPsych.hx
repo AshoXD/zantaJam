@@ -202,7 +202,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		this.dialogueList = dialogueList;
 		spawnCharacters();
 
-		box = new FlxSprite(70, 370);
+		box = new FlxSprite(-49.15, 540);
 		box.frames = Paths.getSparrowAtlas('speech_bubble');
 		box.scrollFactor.set();
 		box.antialiasing = ClientPrefs.globalAntialiasing;
@@ -276,8 +276,8 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		}
 	}
 
-	public static var DEFAULT_TEXT_X = 90;
-	public static var DEFAULT_TEXT_Y = 430;
+	public static var DEFAULT_TEXT_X = 23.55;
+	public static var DEFAULT_TEXT_Y = 550.6;
 	var scrollSpeed = 4500;
 	var daText:Alphabet = null;
 	var ignoreThisFrame:Bool = true; //First frame is reserved for loading dialogue images
@@ -301,7 +301,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 						remove(daText);
 						daText.destroy();
 					}
-					daText = new Alphabet(DEFAULT_TEXT_X, DEFAULT_TEXT_Y, textToType, false, true, 0.0, 0.7);
+					daText = new Alphabet(DEFAULT_TEXT_X, DEFAULT_TEXT_Y, textToType, false, true, 0.0, 0.7, 'alphabetWhite');
 					add(daText);
 					
 					if(skipDialogueThing != null) {

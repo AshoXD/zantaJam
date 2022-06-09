@@ -45,9 +45,10 @@ class Alphabet extends FlxSpriteGroup
 
 	public var finishedText:Bool = false;
 	public var typed:Bool = false;
+	public var assetImageLol:String = 'alphabet';
 
 	public var typingSpeed:Float = 0.05;
-	public function new(x:Float, y:Float, text:String = "", ?bold:Bool = false, typed:Bool = false, ?typingSpeed:Float = 0.05, ?textSize:Float = 1)
+	public function new(x:Float, y:Float, text:String = "", ?bold:Bool = false, typed:Bool = false, ?typingSpeed:Float = 0.05, ?textSize:Float = 1, ?assetImage:String = 'alphabet')
 	{
 		super(x, y);
 		forceX = Math.NEGATIVE_INFINITY;
@@ -55,6 +56,7 @@ class Alphabet extends FlxSpriteGroup
 
 		_finalText = text;
 		this.text = text;
+		assetImageLol = assetImage;
 		this.typed = typed;
 		isBold = bold;
 
@@ -146,7 +148,7 @@ class Alphabet extends FlxSpriteGroup
 				consecutiveSpaces = 0;
 
 				// var letter:AlphaCharacter = new AlphaCharacter(30 * loopNum, 0, textSize);
-				var letter:AlphaCharacter = new AlphaCharacter(xPos, 0, textSize);
+				var letter:AlphaCharacter = new AlphaCharacter(xPos, 0, textSize, assetImageLol);
 
 				if (isBold)
 				{
@@ -287,7 +289,7 @@ class Alphabet extends FlxSpriteGroup
 				consecutiveSpaces = 0;
 
 				// var letter:AlphaCharacter = new AlphaCharacter(30 * loopNum, 0, textSize);
-				var letter:AlphaCharacter = new AlphaCharacter(xPos, 55 * yMulti, textSize);
+				var letter:AlphaCharacter = new AlphaCharacter(xPos, 55 * yMulti, textSize, assetImageLol);
 				letter.row = curRow;
 				if (isBold)
 				{
@@ -368,6 +370,7 @@ class Alphabet extends FlxSpriteGroup
 		}
 		typeTimer = null;
 	}
+
 }
 
 class AlphaCharacter extends FlxSprite
@@ -382,10 +385,10 @@ class AlphaCharacter extends FlxSprite
 
 	private var textSize:Float = 1;
 
-	public function new(x:Float, y:Float, textSize:Float)
+	public function new(x:Float, y:Float, textSize:Float, ?asset:String = 'alphabet')
 	{
 		super(x, y);
-		var tex = Paths.getSparrowAtlas('alphabet');
+		var tex = Paths.getSparrowAtlas(asset);
 		frames = tex;
 
 		setGraphicSize(Std.int(width * textSize));

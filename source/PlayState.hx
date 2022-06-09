@@ -1134,11 +1134,13 @@ class PlayState extends MusicBeatState
 		scoreTxt.borderSize = 1.25;
 		scoreTxt.visible = !ClientPrefs.hideHud;
 		add(scoreTxt);
+		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "cheating idiot", 32);
 
-		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "SEXO ANAL", 32);
+		
 		if (SONG.song.toLowerCase() == 'dead-snow')
 			{
 				botplayTxt.setFormat(Paths.font("renogare.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+				
 			}
 		else
 				{
@@ -3180,8 +3182,17 @@ class PlayState extends MusicBeatState
 					} 
 				if (value2 == 'matt')
 					{
-						setHealthBarColors([0, 22, 74], [194, 41, 41]);
+						setHealthBarColors([153, 0, 255], [194, 41, 41]);
 					} 
+				if (value2 == 'tom')
+					{
+						setHealthBarColors([0, 0, 153], [194, 41, 41]);
+					} 
+				if (value2 == 'tord')
+					{
+						setHealthBarColors([255, 45, 50], [194, 41, 41]);
+					} 
+
 
 			
 

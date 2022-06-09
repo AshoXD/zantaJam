@@ -113,7 +113,7 @@ class DialogueCharacterEditorState extends MusicBeatState
 		ghostIdle.cameras = [camGame];
 		add(ghostIdle);
 
-		box = new FlxSprite(70, 370);
+		box = new FlxSprite(-49.15, 540);
 		box.frames = Paths.getSparrowAtlas('speech_bubble');
 		box.scrollFactor.set();
 		box.antialiasing = ClientPrefs.globalAntialiasing;

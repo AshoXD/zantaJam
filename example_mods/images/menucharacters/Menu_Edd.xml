@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_Edd.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Edd0000" x="0" y="0" width="223" height="335" frameX="-2" frameY="-3" frameWidth="225" frameHeight="338"/>
+	<SubTexture name="Edd0001" x="0" y="0" width="223" height="335" frameX="-2" frameY="-3" frameWidth="225" frameHeight="338"/>
+	<SubTexture name="Edd0002" x="223" y="0" width="223" height="337" frameX="-2" frameY="-1" frameWidth="225" frameHeight="338"/>
+	<SubTexture name="Edd0003" x="223" y="0" width="223" height="337" frameX="-2" frameY="-1" frameWidth="225" frameHeight="338"/>
+	<SubTexture name="Edd0004" x="446" y="0" width="223" height="338" frameX="0" frameY="0" frameWidth="225" frameHeight="338"/>
+	<SubTexture name="Edd0005" x="446" y="0" width="223" height="338" frameX="0" frameY="0" frameWidth="225" frameHeight="338"/>
+	<SubTexture name="Edd0006" x="446" y="0" width="223" height="338" frameX="0" frameY="0" frameWidth="225" frameHeight="338"/>
+	<SubTexture name="Edd0007" x="446" y="0" width="223" height="338" frameX="0" frameY="0" frameWidth="225" frameHeight="338"/>
+	<SubTexture name="Edd0008" x="446" y="0" width="223" height="338" frameX="0" frameY="0" frameWidth="225" frameHeight="338"/>
+	<SubTexture name="Edd0009" x="446" y="0" width="223" height="338" frameX="0" frameY="0" frameWidth="225" frameHeight="338"/>
+	<SubTexture name="Edd0010" x="446" y="0" width="223" height="338" frameX="0" frameY="0" frameWidth="225" frameHeight="338"/>
+	<SubTexture name="Edd0011" x="446" y="0" width="223" height="338" frameX="0" frameY="0" frameWidth="225" frameHeight="338"/>
+	<SubTexture name="Edd0012" x="446" y="0" width="223" height="338" frameX="0" frameY="0" frameWidth="225" frameHeight="338"/>
+	<SubTexture name="Edd0013" x="446" y="0" width="223" height="338" frameX="0" frameY="0" frameWidth="225" frameHeight="338"/>
+	<SubTexture name="Edd0014" x="446" y="0" width="223" height="338" frameX="0" frameY="0" frameWidth="225" frameHeight="338"/>
+</TextureAtlas>

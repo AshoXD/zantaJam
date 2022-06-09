@@ -68,7 +68,7 @@ class DialogueEditorState extends MusicBeatState
 		character.scrollFactor.set();
 		add(character);
 
-		box = new FlxSprite(70, 370);
+		box = new FlxSprite(-49.15, 540);
 		box.frames = Paths.getSparrowAtlas('speech_bubble');
 		box.scrollFactor.set();
 		box.antialiasing = ClientPrefs.globalAntialiasing;
