@@ -1,0 +1,11 @@
+{
+	"idle_anim": "Edd",
+	"image": "Menu_Edd",
+	"position": [
+		0,
+		0
+	],
+	"flipX": false,
+	"scale": 1,
+	"confirm_anim": "Zanta"
+}

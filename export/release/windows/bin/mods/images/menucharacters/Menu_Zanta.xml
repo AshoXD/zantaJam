@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_Zanta.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Zanta0000" x="0" y="0" width="332" height="340" frameX="0" frameY="-11" frameWidth="332" frameHeight="351"/>
+	<SubTexture name="Zanta0001" x="0" y="0" width="332" height="340" frameX="0" frameY="-11" frameWidth="332" frameHeight="351"/>
+	<SubTexture name="Zanta0002" x="332" y="0" width="331" height="346" frameX="0" frameY="-5" frameWidth="332" frameHeight="351"/>
+	<SubTexture name="Zanta0003" x="332" y="0" width="331" height="346" frameX="0" frameY="-5" frameWidth="332" frameHeight="351"/>
+	<SubTexture name="Zanta0004" x="663" y="0" width="329" height="348" frameX="0" frameY="-3" frameWidth="332" frameHeight="351"/>
+	<SubTexture name="Zanta0005" x="663" y="0" width="329" height="348" frameX="0" frameY="-3" frameWidth="332" frameHeight="351"/>
+	<SubTexture name="Zanta0006" x="0" y="348" width="328" height="351" frameX="-1" frameY="0" frameWidth="332" frameHeight="351"/>
+	<SubTexture name="Zanta0007" x="0" y="348" width="328" height="351" frameX="-1" frameY="0" frameWidth="332" frameHeight="351"/>
+	<SubTexture name="Zanta0008" x="0" y="348" width="328" height="351" frameX="-1" frameY="0" frameWidth="332" frameHeight="351"/>
+	<SubTexture name="Zanta0009" x="0" y="348" width="328" height="351" frameX="-1" frameY="0" frameWidth="332" frameHeight="351"/>
+	<SubTexture name="Zanta0010" x="0" y="348" width="328" height="351" frameX="-1" frameY="0" frameWidth="332" frameHeight="351"/>
+	<SubTexture name="Zanta0011" x="0" y="348" width="328" height="351" frameX="-1" frameY="0" frameWidth="332" frameHeight="351"/>
+	<SubTexture name="Zanta0012" x="0" y="348" width="328" height="351" frameX="-1" frameY="0" frameWidth="332" frameHeight="351"/>
+	<SubTexture name="Zanta0013" x="0" y="348" width="328" height="351" frameX="-1" frameY="0" frameWidth="332" frameHeight="351"/>
+	<SubTexture name="Zanta0014" x="0" y="348" width="328" height="351" frameX="-1" frameY="0" frameWidth="332" frameHeight="351"/>
+	<SubTexture name="Zanta0015" x="0" y="348" width="328" height="351" frameX="-1" frameY="0" frameWidth="332" frameHeight="351"/>
+	<SubTexture name="Zanta0016" x="0" y="348" width="328" height="351" frameX="-1" frameY="0" frameWidth="332" frameHeight="351"/>
+</TextureAtlas>

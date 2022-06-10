@@ -1,0 +1,11 @@
+{
+	"idle_anim": "Zanta",
+	"image": "Menu_Zanta",
+	"position": [
+		0,
+		0
+	],
+	"flipX": false,
+	"scale": 1,
+	"confirm_anim": "Zanta"
+}

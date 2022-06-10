@@ -1,0 +1,4 @@
+Play Animation for edd squad
+
+Var 1 = tom, tord, matt
+Var 2 = Animation name

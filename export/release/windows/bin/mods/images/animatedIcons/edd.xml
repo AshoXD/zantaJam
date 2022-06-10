@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="edd.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="edd0000" x="0" y="0" width="152" height="152"/>
+	<SubTexture name="edd0001" x="152" y="0" width="152" height="152"/>
+	<SubTexture name="edd0002" x="304" y="0" width="152" height="152"/>
+	<SubTexture name="matt0000" x="456" y="0" width="152" height="152"/>
+	<SubTexture name="matt0001" x="608" y="0" width="152" height="152"/>
+	<SubTexture name="matt0002" x="760" y="0" width="152" height="152"/>
+	<SubTexture name="tom0000" x="0" y="152" width="152" height="152"/>
+	<SubTexture name="tom0001" x="152" y="152" width="152" height="152"/>
+	<SubTexture name="tom0002" x="304" y="152" width="152" height="152"/>
+	<SubTexture name="tord0000" x="456" y="152" width="152" height="152"/>
+	<SubTexture name="tord0001" x="608" y="152" width="152" height="152"/>
+	<SubTexture name="tord0002" x="760" y="152" width="152" height="152"/>
+</TextureAtlas>

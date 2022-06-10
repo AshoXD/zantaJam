@@ -1,0 +1,103 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				-2,
+				-14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [
+				-1,
+				20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"offsets": [
+				-10,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right"
+		},
+		{
+			"offsets": [
+				10,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				2
+			],
+			"anim": "chair",
+			"fps": 24,
+			"name": "Chair React",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				2
+			],
+			"indices": [
+				5,
+				6
+			],
+			"fps": 24,
+			"anim": "idle-chair",
+			"loop": false,
+			"name": "Chair React"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/edd",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "edd",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		204,
+		0
+	],
+	"camera_position": [
+		110,
+		-40
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="matt.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Matt0000" x="0" y="0" width="330" height="493" frameX="-13" frameY="-27" frameWidth="352" frameHeight="529"/>
+	<SubTexture name="Matt0001" x="0" y="0" width="330" height="493" frameX="-13" frameY="-27" frameWidth="352" frameHeight="529"/>
+	<SubTexture name="Matt0002" x="330" y="0" width="329" height="497" frameX="-14" frameY="-23" frameWidth="352" frameHeight="529"/>
+	<SubTexture name="Matt0003" x="330" y="0" width="329" height="497" frameX="-14" frameY="-23" frameWidth="352" frameHeight="529"/>
+	<SubTexture name="Matt0004" x="659" y="0" width="327" height="502" frameX="-15" frameY="-18" frameWidth="352" frameHeight="529"/>
+	<SubTexture name="Matt0005" x="986" y="0" width="334" height="494" frameX="0" frameY="-26" frameWidth="352" frameHeight="529"/>
+	<SubTexture name="Matt0006" x="986" y="0" width="334" height="494" frameX="0" frameY="-26" frameWidth="352" frameHeight="529"/>
+	<SubTexture name="Matt0007" x="1320" y="0" width="329" height="496" frameX="-7" frameY="-24" frameWidth="352" frameHeight="529"/>
+	<SubTexture name="Matt0008" x="1649" y="0" width="328" height="504" frameX="-16" frameY="-16" frameWidth="352" frameHeight="529"/>
+	<SubTexture name="Matt0009" x="1649" y="0" width="328" height="504" frameX="-16" frameY="-16" frameWidth="352" frameHeight="529"/>
+	<SubTexture name="Matt0010" x="0" y="504" width="327" height="501" frameX="-17" frameY="-19" frameWidth="352" frameHeight="529"/>
+	<SubTexture name="Matt0011" x="327" y="504" width="316" height="529" frameX="-18" frameY="0" frameWidth="352" frameHeight="529"/>
+	<SubTexture name="Matt0012" x="327" y="504" width="316" height="529" frameX="-18" frameY="0" frameWidth="352" frameHeight="529"/>
+	<SubTexture name="Matt0013" x="643" y="504" width="316" height="521" frameX="-20" frameY="-6" frameWidth="352" frameHeight="529"/>
+	<SubTexture name="Matt0014" x="959" y="504" width="342" height="491" frameX="-10" frameY="-29" frameWidth="352" frameHeight="529"/>
+	<SubTexture name="Matt0015" x="959" y="504" width="342" height="491" frameX="-10" frameY="-29" frameWidth="352" frameHeight="529"/>
+	<SubTexture name="Matt0016" x="1301" y="504" width="336" height="499" frameX="-13" frameY="-21" frameWidth="352" frameHeight="529"/>
+</TextureAtlas>

@@ -6,7 +6,13 @@ art/build_x64-officialrelease.bat
 art/test_x64-debug-officialrelease.bat
 
 ### VS Code
-export/*
+Modding.md
+CHANGELOG.md
+README.md
+UPDATE HAXE TO 4.4.txt
+LICENSE
+cumpile.bat
+pack.json
 .vscode/*
 *.code-workspace
 # Local history which shouldn't be shared.
